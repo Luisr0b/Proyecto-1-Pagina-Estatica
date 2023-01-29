@@ -70,6 +70,8 @@
   box-sizing: border-box;
 }
 
+.d-grid {}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -236,11 +238,11 @@ sup {
 }
 
 a {
-  color: #f4623a;
+  color: #094CFF;
   text-decoration: underline;
 }
 a:hover {
-  color: #c34e2e;
+  color: #094CFF;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3032,13 +3034,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: var(--bs-blue);
-  border-color: var(--bs-blue);
+  background-color: #608BFF;
+  border-color: #608BFF;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #cf5331;
-  border-color: #c34e2e;
+  background-color: #094CFF;
+  border-color: #094CFF;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -3944,7 +3946,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #f4623a;
+  color: #094CFF;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3954,7 +3956,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #c34e2e;
+  color: #094CFF;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -4001,7 +4003,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #f4623a;
+  background-color: #094CFF;
 }
 
 .nav-fill > .nav-link,
@@ -11319,7 +11321,7 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: #f4623a;
+  background-color: #336BFF;
   opacity: 1;
 }
 
@@ -11335,7 +11337,7 @@ hr.divider-light {
 #mainNav .navbar-brand {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  color: #212529;
+  color: #094CFF;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   color: #6c757d;
@@ -11345,10 +11347,10 @@ hr.divider-light {
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  color: #094CFF;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  color: #094CFF !important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -11379,13 +11381,13 @@ hr.divider-light {
     color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f4623a;
+    color: #094CFF;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
     color: #212529;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
+    color: #094CFF;
   }
 }
 
